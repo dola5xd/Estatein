@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✨ Estatein | Discover Your Place! ✨
 
-## Getting Started
+> **Find your dream home effortlessly with Estatein.** 🏡 Explore verified listings, compare properties, and connect with the best agents to make your home buying journey seamless.
 
-First, run the development server:
+![Estatein](https://socialify.git.ci/dola5xd/Estatein/image?description=1&font=KoHo&language=1&name=1&owner=1&stargazers=1&theme=Dark)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🌟 Features
+
+✅ Seamless property discovery  
+✅ Verified listings for peace of mind  
+✅ Local market insights for smarter decisions  
+✅ Smooth animations powered by Motion & Lenis  
+✅ Intuitive forms with React Hook Form  
+✅ Modern styling with Tailwind CSS and Styled Components
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** 🚀 Next.js 15.0.3
+- **Styling:** 🎨 Tailwind CSS, Styled Components
+- **Backend:** 🔥 Sanity, Next-Sanity
+- **Data & Forms:** 🔄 React Hook Form
+- **Animations:** 🎥 Motion, Lenis
+- **Utilities:** 📦 Various libraries for image management and UI enhancement
+
+---
+
+## 📸 Screenshots
+
+Take a look at some of the amazing UIs of Estatein!
+
+## ![Home Page](/Screenshot/Home_Page.png)
+
+## ![Listings Page](/Screenshot/Listings_Page.jpeg)
+
+## ![Property Details](/Screenshot/Property_Details.jpeg)
+
+---
+
+## ⚡ Installation
+
+Clone the repository:
+
+```sh
+git clone https://github.com/yourusername/estatein.git
+cd estatein
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Development
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Start the development server:
 
-## Learn More
+```sh
+npm run dev
 
-To learn more about Next.js, take a look at the following resources:
+npm run build
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+npm run start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🤝 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🚀 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🤝 Contributing
+
+🚀 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 📄 License
+
+📜 This project is licensed under the **MIT License**.
+
+---
+
+💖 Made with passion by **Adel Yasser**

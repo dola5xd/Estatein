@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  /* Primary colors */
+  --color-primary-200: #fbfaff;
+  --color-primary-300: #f4f0fe;
+  --color-primary-400: #ede7fe;
+  --color-primary-500: #dbcefd;
+  --color-primary-600: #a685fa;
+  --color-primary-700: #946cf9;
+  --color-primary-800: #8254f8;
+  --color-primary-900: #703bf7;
+
+  /* Light colors */
+  --color-light-100: #fcfcfd;
+  --color-light-200: #f7f7f8;
+  --color-light-300: #f1f1f3;
+  --color-light-400: #e4e4e7;
+
+  /* Grey colors */
+  --color-grey-100: #999999;
+  --color-grey-200: #808080;
+  --color-grey-300: #666666;
+  --color-grey-400: #4d4d4d;
+  --color-grey-500: #333333;
+  --color-grey-600: #262626;
+  --color-grey-700: #1a1a1a;
+  --color-grey-800: #141414;
+  --animate-wiggle: spin 2.5s linear infinite;
+  --shadow-3xl: 12px 20px 77px 40px;
+}
+.bg-banner {
+  background: url(../_assets/bannar-bg.svg);
+}
+.bg-value {
+  background-image: url(../_assets/value-bg.svg);
+  background-size: cover;
+}
+.bg-footer {
+  background: url(../_assets/bgfooter.svg);
+}
+.custom-select option {
+  background-color: #333333;
+  color: #e5e7eb;
+}
+
+.slick-dots {
+  bottom: -24px !important;
+}
+
+.slick-dots li button {
+  padding: 0 !important;
+  font-size: 0px !important;
+}
+
+.slick-dots li button:before {
+  content: "" !important;
+  display: block !important;
+  width: 16px !important;
+  height: 6px !important;
+  background-color: #292929 !important;
+  border-radius: 3px !important;
+  opacity: 1 !important;
+  font-size: 0px !important;
+  transition: background-color 0.2s !important;
+}
+
+.slick-dots li.slick-active button:before {
+  background-color: #703bf7 !important;
+}
