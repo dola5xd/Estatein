@@ -45,7 +45,7 @@ Take a look at some of the amazing UIs of Estatein!
 Clone the repository:
 
 ```sh
-git clone https://github.com/yourusername/estatein.git
+git clone https://github.com/dola5xd/estatein.git
 cd estatein
 npm install
 ```

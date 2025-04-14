@@ -16,7 +16,7 @@ export async function generateMetadata({
 }: {
   params: Promise<{ id: string }>;
 }): Promise<Metadata> {
-  const { id } = await params
+  const { id } = await params;
 
   const property = await client.fetch<PropertyType>(
     propertyIDFetch,
@@ -28,6 +28,7 @@ export async function generateMetadata({
   const description = `Explore ${property.name} located in ${property.location}. Features: ${property.bedrooms} beds, ${property.bathrooms} baths, ${property.area} sqft.`;
 
   return {
+    metadataBase: new URL("https://estatein.com"),
     title,
     description,
     openGraph: {
@@ -50,6 +51,7 @@ export async function generateMetadata({
     },
   };
 }
+
 
 
 
